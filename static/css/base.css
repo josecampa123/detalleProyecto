@@ -1,0 +1,23 @@
+body{
+    font-size: 20px;
+}
+
+head h1 a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.detalle-entry{
+    margin-bottom: 5rem;
+}
+
+.detalle-entry h2 a,
+.detalle-entry h2 a:visited{
+    color: brown;
+
+}
+
+.detalle-entry{
+    color: chocolate;
+}
+

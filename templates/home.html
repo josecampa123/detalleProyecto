@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{%block content %}
+   {% for equipos in desc %}
+      <div>
+          <h2> <a href="{% url 'detalleDetalle' equipos.pk %}"> {{ equipos.equipo}} </a></h2>
+                            <p>{{equipos.Reseña}}</p>
+      </div>
+    {% endfor %}
+    
+{% endblock content %}
+
+   
